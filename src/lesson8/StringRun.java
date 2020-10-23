@@ -47,5 +47,11 @@ public class StringRun {
         if (s15.equalsIgnoreCase(s16)) {
             System.out.println("Strings are equal ignore case");
         }
+
+        String s17 = "hello world. my name is. dima";
+        String[] s17Split = s17.split("\\.");
+        for (int i = 0; i < s17Split.length; i++) {
+            System.out.println(s17Split[i]);
+        }
     }
 }
